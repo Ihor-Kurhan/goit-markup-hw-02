@@ -40,7 +40,8 @@ body {font-family:var(--main-font-family);
         color: #404BBF;
     }
     /* menu list */
-    .list {list-style: none}
+    .list {
+        list-style: none;}
     .menu-list {
     font-family: var(--main-font-family);
     font-weight: 500;
@@ -74,7 +75,7 @@ border: 0;
 }
 .order-btn:hover,
 .order-btn:focus {
-    background-color: #404BBF;
+background-color: #404BBF;
 }
 .nav-btn {
 font-family: var(--main-font-family);
@@ -105,12 +106,14 @@ border-radius: 4px;
 
 }
 /* h3 */
-.title3 {
+.title-features {
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
+    background-color:#2e2f42;
 }
 /* small-text */
 .small-text {
