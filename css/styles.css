@@ -56,7 +56,6 @@ body {font-family:var(--main-font-family);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
     color: #2E2F42;  
 }
 .menu-list:hover,
@@ -81,9 +80,8 @@ cursor: pointer;
 border: 0;
 
 }
-.order-btn:hover {background-color: #404BBF};
-.order-btn:focus {background-color: #404BBF;
-}
+.order-btn:hover {background-color: #404BBF}
+.order-btn:focus {background-color: #404BBF}
 .nav-btn {
 font-family: var(--main-font-family);
 font-weight: 500;
