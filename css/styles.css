@@ -95,12 +95,12 @@ border: 0;
     color: #FFFFFF;
 border-radius: 4px;
 }
-/* h2 */
+/* sec2 */
 .hidden-features {
     color:#2e2f42;
 }
-/*  */
-.wawd, .our-team {
+/* h3 What are we doing */
+.wawd {
     font-family: var(--main-font-family);
     font-weight: 700;
     font-size: 36px;
@@ -112,6 +112,17 @@ border-radius: 4px;
 }
 .wawd-sec {
     background-color: #F4F4FD
+}
+/* sec4 Our Team */
+.our-team {
+    font-family: var(--main-font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
 }
 .our-team-sec {
     background-color: #F4F4FD
