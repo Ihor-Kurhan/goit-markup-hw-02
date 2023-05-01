@@ -73,9 +73,6 @@ border-radius: 4px;
 cursor: pointer;
 border: 0;
 }
-
-.order-btn:hover {background-color: #404BBF}
-.order-btn:focus {background-color: #404BBF}
 .nav-btn {
 font-family: var(--main-font-family);
 font-weight: 500;
@@ -88,6 +85,10 @@ color: #4D5AE5;
 cursor: pointer;
 border: 0;
 }
+.order-btn:hover {background-color: #404BBF}
+.order-btn:focus {background-color: #404BBF}
+
+/* nav btn */
 .nav-btn:hover,
 .nav-btn:focus {
     background: #404BBF;
@@ -95,7 +96,9 @@ border: 0;
 border-radius: 4px;
 }
 /* h2 */
-.hidden-features {color:#2e2f42}
+.hidden-features {
+    color:#2e2f42;
+}
 
 .wawd, .our-team {
     font-family: var(--main-font-family);
@@ -106,8 +109,11 @@ border-radius: 4px;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-
 }
+.wawd-sec {
+    background-color: #F4F4FD
+}
+
 /* h3 */
 .title-features {
     font-family: var(--main-font-family);
