@@ -99,7 +99,7 @@ border-radius: 4px;
 .hidden-features {
     color:#2e2f42;
 }
-
+/*  */
 .wawd, .our-team {
     font-family: var(--main-font-family);
     font-weight: 700;
@@ -111,6 +111,9 @@ border-radius: 4px;
     color: #2e2f42;
 }
 .wawd-sec {
+    background-color: #F4F4FD
+}
+.our-team-sec {
     background-color: #F4F4FD
 }
 
@@ -133,6 +136,7 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
+    
     }     
 /* logo */
 .logo-web {
@@ -173,6 +177,10 @@ letter-spacing: 0.02em;
 
 
 /* footer */
+.footer-sec {
+    color: #F4F4FD;
+    background-color: #2E2F42;
+}
 .logo-web-foot {
     font-family: 'Raleway', sans-serif;
 font-style: normal;
@@ -200,5 +208,3 @@ color: #4D5AE5;
     color: #F4F4FD;
     
 }
-footer {color: #F4F4FD;
-    background-color: #2E2F42;}
