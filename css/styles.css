@@ -114,6 +114,13 @@ border-radius: 4px;
     background-color: #F4F4FD
 }
 /* sec4 Our Team */
+.title-name-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 .our-team {
     font-family: var(--main-font-family);
     font-weight: 700;
@@ -126,6 +133,9 @@ border-radius: 4px;
 }
 .our-team-sec {
     background-color: #F4F4FD
+}
+.team-img {
+    background-color: #FFFFFF;
 }
 
 /* h3 */
