@@ -116,9 +116,9 @@ border-radius: 4px;
 /* sec4 Our Team */
 .our-team {
     font-family: var(--main-font-family);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
