@@ -80,8 +80,7 @@ cursor: pointer;
 border: 0;
 
 }
-.order-btn:hover {background-color: #404BBF}
-.order-btn:focus {background-color: #404BBF}
+.order-btn:hover, .order-btn:focus {background-color: #404BBF}
 .nav-btn {
 font-family: var(--main-font-family);
 font-weight: 500;
