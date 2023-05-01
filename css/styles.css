@@ -11,7 +11,7 @@ body {font-family:var(--main-font-family);
 /* def settings */
 .link {text-decoration: none;}
 .list {text-decoration: none;}
-.contact-list {font-style: normal;}
+.contact {font-style: normal;}
 
 /* hero */
 .hero {background-color: #2e2f42}
@@ -24,13 +24,11 @@ body {font-family:var(--main-font-family);
     letter-spacing: 0.02em;
     color: #FFFFFF;
     text-align: center;
-    width: 378px;
-    height: 60px;
     background-color: #2E2F42;
 }
 
     /* contacts */
-    .contact-mail, .contact-tel {
+    .contact-list {
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 400;
@@ -39,14 +37,10 @@ body {font-family:var(--main-font-family);
     letter-spacing: 0.02em;
     color: #434455;
     }
-    .contact-mail:hover,
-    .contact-mail:focus {
+    .contact-list:hover,
+    .contact-list:focus {
         color: #404BBF;}
 
-    .contact-tel:hover,
-    .contact-tel:focus {
-        color: #404BBF;
-    }
     /* menu list */
     .list {
         list-style: none;}
@@ -78,9 +72,10 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 cursor: pointer;
 border: 0;
-
 }
-.order-btn:hover, .order-btn:focus {background-color: #404BBF}
+
+.order-btn:hover {background-color: #404BBF}
+.order-btn:focus {background-color: #404BBF}
 .nav-btn {
 font-family: var(--main-font-family);
 font-weight: 500;
@@ -128,7 +123,7 @@ border-radius: 4px;
     font-family: var(--main-font-family);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.15;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
