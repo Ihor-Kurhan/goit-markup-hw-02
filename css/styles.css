@@ -114,7 +114,7 @@ border-radius: 4px;
 .wawd-sec {
     background-color: #F4F4FD
 }
-/* sec4 Our Team */
+/* list4 Our Team */
 .title-name-team {
     font-weight: 500;
     font-size: 20px;
@@ -149,15 +149,15 @@ border-radius: 4px;
     text-align: center;
     color:#2e2f42;
 }
-/* small-text */
+/* small-text p */
 .small-text {
     font-family: var(--main-font-family);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.02em;
+    color: #434455;
     
     }     
 /* logo */
@@ -196,8 +196,14 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
-
-
+/* title-portfolio */
+.title-portfolio {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 /* footer */
 .footer-sec {
     color: #F4F4FD;
